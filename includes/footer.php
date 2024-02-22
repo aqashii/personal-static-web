@@ -5,7 +5,7 @@
             <a href="https://instagram.com/aq__ashii" style="text-decoration:none; color: inherit;" class="fa-brands fa-instagram"></a>
             <a href="https://youtube.com/DrExploit" style="text-decoration:none; color: inherit;" class="fa-brands fa-youtube"></a>
             <a href="https://github.com/aqashii" style="text-decoration:none; color: inherit;" class="fa-brands fa-github"></a>
-            <p class="text-center">Copyright ©2024 . All rights reserved | Powered by aqwebz</p>
+            <p class="text-center">Copyright ©<?= date('Y')?> . All rights reserved | Powered by aqwebz</p>
           </div>
         </div>
       </div>
