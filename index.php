@@ -88,33 +88,33 @@
     <div class="row align-items-center">
       <h1 class="text-center p-4">Contact me</h1>
 
-      <form class="row g-3">
+      <form class="row g-3" id="contact-form" action="" method="post">
         <div class="col-md-6">
           <label for="inputEmail4" class="form-label">Name</label>
-          <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+          <input type="text" name="name" class="form-control" id="inputEmail4" placeholder="Name">
         </div>
         <div class="col-md-6">
           <label for="inputPassword4" class="form-label">Place</label>
-          <input type="text" class="form-control" id="inputPassword4" placeholder="Place">
+          <input type="text" name="place" class="form-control" id="inputPassword4" placeholder="Place">
         </div>
         <div class="col-6">
           <label for="inputAddress" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputAddress" placeholder="Email">
+          <input type="email" name="email" class="form-control" id="inputAddress" placeholder="Email">
         </div>
         <div class="col-6">
           <label for="inputAddress2" class="form-label">Mobile</label>
-          <input type="tel" class="form-control" id="inputAddress2" placeholder="Mobile">
+          <input type="tel" name="phno" class="form-control" id="inputAddress2" placeholder="Mobile">
         </div>
         <div class="col-md-12">
           <label for="inputCity" class="form-label">Message</label>
 
-          <textarea type="text" class="form-control" cols="30" rows="10" placeholder="Type your message here..."></textarea>
+          <textarea type="text" name="message" class="form-control" cols="30" rows="10" placeholder="Type your message here..."></textarea>
         </div>
         <div class="col-12">
-          <button type="submit" class="btn btn-primary" style="width:100% ;">Submit</button>
+          <button type="submit" id="contact-btn" class="contact-btn btn btn-primary" style="width:100% ;">Submit</button>
         </div>
       </form>
-
+<div id="messagebox" class="messagebox text-center"></div>
     </div>
   </div>
 </section>
