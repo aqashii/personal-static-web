@@ -1,17 +1,17 @@
 <?php include('includes/header.php'); ?>
 
 
-<section class="" id="home" style="padding-top: 6em; height: 480px; background-size: 100% 80%; background-repeat: no-repeat; background-image:url(sources/files/images/ashiq.jpg) ; ">
+<section class="" id="home" style="padding-top: 6em; height: 480px; background-size: 100% 80%; background-repeat: no-repeat; background-image:url(sources/files/images/aqashii.jpg) ; ">
 
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 col-sm-12" style="padding-left: 130px;">
-        <img src="sources/files/images/mypic.jpg" alt="" class="img-fluid rounded-circle text-center border border-secondary" style="height: 170px;">
+        <img src="sources/files/images/aq-ashii.jpg" alt="Aq Ashii" class="img-fluid rounded-circle text-center border border-secondary" style="height: 170px;">
       </div>
       <div class="col-md-6 text-white">
-        <h4 class="pt-4">Im Ashiq Muhammed ,PHP Developer<br>
+        <h4 class="pt-4">I'm Ashiq Muhammed E.P,PHP Developer<br>
           Malappuram,Tirur</h4>
-        <pr>"You are the average of 5 people you hang around"</pr>
+        <pr>"Chase your passion,Take risk"</pr>
 
 
       </div>
