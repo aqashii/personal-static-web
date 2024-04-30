@@ -1,5 +1,7 @@
 <?php
-
+require 'vendor/PHPMailer-master/src/Exception.php';
+require 'vendor/PHPMailer-master/src/PHPMailer.php';
+require 'vendor/PHPMailer-master/src/SMTP.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $fullname = $_POST['name'];
